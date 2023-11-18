@@ -31,8 +31,6 @@ while True:
     ctr+=1
     lc+=1
     print(lc, end=" ", flush=True)
-    # print(".", end="", flush=True)
-    # print(f"{ctr=} {rr=} {sd=}")
 
     try:
 
@@ -72,7 +70,7 @@ while True:
         print("import sys;sys.exit()"); import code; code.interact(local=locals())
 
 r4=server.quit()
-# print(f"{r4=}")
-# r4=(221, b'2.0.0 Bye')
+print(f"{r4=}")
+r4=(221, b'2.0.0 Bye')
 assert r4[0]==221, print(f"{r4=}")
 
