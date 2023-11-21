@@ -4,3 +4,6 @@ t2.py - simple code that works.  Using mailgun parameters it sent James a few ma
 t3.py - t2.py with looping and exception handeling: print, counters++, maybe reconnect.. keep looping.
 t3.sh - source m_test.sh, runs t3.py
 
+t4.py - mailgun api yoiked from evote
+t4.sh - runs t4.py
+
